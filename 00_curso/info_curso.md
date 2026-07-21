@@ -97,7 +97,7 @@ Consulta el cronograma detallado en [`cronograma.md`](./cronograma.md) de esta m
 
 **Asesorías:**
 - 📍 Lugar: 4-108.
-- 📍 Horario: lunes 3-4 p.m., miércoles 6-8 a.m.
+- 📍 Horario: por definir.
 
 **Importante:**
 - Sé claro en tus mensajes.
@@ -122,15 +122,26 @@ Consulta el cronograma detallado en [`cronograma.md`](./cronograma.md) de esta m
 ## Recursos recomendados
 
 **Fundamentos previos:**
-- Recursión: introducción a la recursión, ejemplos prácticos, recursión y su aplicación.
-- Árboles: introducción a árboles en estructuras de datos, implementación de árboles en Python, árboles binarios y sus operaciones, recorridos en árboles.
-- Grafos: introducción a grafos en programación, algoritmos básicos en grafos.
+
+- 🔄 Recursión
+  - [Video 1](https://www.youtube.com/watch?v=YwRjEOFxvO0) – Introducción a la recursión.
+  - [Video 2](https://www.youtube.com/watch?v=m1Fjdnj_Mds&t=14s) – Ejemplos prácticos.
+  - [Video 3](https://www.youtube.com/watch?v=IJDJ0kBx2LM&t=17s) – Recursión y su aplicación.
+- 🌳 Árboles
+  - [Video 1](https://www.youtube.com/watch?v=4r_XR9fUPhQ) – Introducción a árboles en estructuras de datos.
+  - [Video 2](https://www.youtube.com/watch?v=1-l_UOFi1Xw) – Implementación de árboles en Python.
+  - [Video 3](https://www.youtube.com/watch?v=6oL-0TdVy28) – Árboles binarios y sus operaciones.
+  - [Video 4](https://www.youtube.com/watch?v=DlWxqU3LLpY) – Recorridos en árboles.
+- 🌐 Grafos
+  - [Video 1](https://www.youtube.com/watch?v=j0IYCyBdzfA) – Introducción a grafos en programación.
+  - [Video 2](https://www.youtube.com/watch?v=9yeVEqaXoNg) – Algoritmos básicos en grafos.
 
 **Estrategias algorítmicas del curso:**
-- Greedy
-- Backtracking
-- Dynamic programming
-- Divide and conquer
+
+- [Video](http://youtube.com/watch?v=bC7o8P_Ste4) – Greedy
+- [Video](https://www.youtube.com/watch?v=A80YzvNwqXA) – Backtracking
+- [Video](https://www.youtube.com/watch?v=66hDgWottdA) – Dynamic programming
+- [Video](https://www.youtube.com/watch?v=UxtAqHOb8aw&t=39s) – Divide and conquer
 
 ## Reto diagnóstico
 
@@ -147,4 +158,4 @@ Consulta el cronograma detallado en [`cronograma.md`](./cronograma.md) de esta m
 - Detecta y enfrenta tempranamente cualquier dificultad.
 - No se trata de los temas del curso, sino de los fundamentos previos necesarios.
 
-El notebook del reto está disponible en [`reto_diagnostico.ipynb`](./reto_diagnostico.ipynb) de esta misma carpeta.
+El notebook del reto está disponible en [`reto_diagnostico.ipynb`](./reto_diagnostico.ipynb) de esta misma carpeta, o directamente en [Google Colab](https://colab.research.google.com/drive/1LzU4DVP_m7UZraMSTStdApdTPqAZgV9f?usp=sharing).

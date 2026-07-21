@@ -2,6 +2,8 @@
 
 Este es el plan de clase a clase del semestre 2026-1. El curso está organizado en bloques temáticos de 2 semanas cada uno; al final de cada bloque grande hay un **hito evaluativo** (parcial o proyecto).
 
+También puedes consultar la [hoja de cálculo del calendario del curso](https://docs.google.com/spreadsheets/d/1DA5ggeCsvAdsqmjU7Y0btmJ6PPkmt0VNw3-F5lG_b2M/edit?usp=sharing) directamente.
+
 | Semanas | Contenido | Hito evaluativo | Temas evaluados | Metodología |
 |---|---|---|---|---|
 | 1 - 2 | Análisis: notación Big O (O, Ω, Θ). Complejidad en el peor/mejor caso. | | | |
