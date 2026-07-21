@@ -21,6 +21,10 @@ Desarrollar en los estudiantes la capacidad de analizar, diseñar e implementar 
 - 🚀 **Top 10% del curso** (calculado proporcionalmente según el número real de estudiantes activos) recibe **bonificaciones en el examen final**.
 - 🏆 **Top 1 del curso** (mayor puntaje acumulado durante el semestre) queda **eximido del examen final**.
 
+> Los criterios exactos de este mecanismo se están terminando de definir y se explicarán en clase.
+
+Este desempeño se mide principalmente a través de tu nota de seguimiento en cada clase — ver [`rubrica_nota_seguimiento.md`](./rubrica_nota_seguimiento.md).
+
 ### Oportunidades de recuperación
 
 Una recuperación por bloque:
@@ -54,6 +58,8 @@ La participación en la comunidad de programación competitiva y en competencias
 La nota se calcula sobre la cantidad de ejercicios resueltos correctamente por examen, evaluados con casos de prueba.
 
 **Todos los parciales están sujetos a sustentación.**
+
+Los criterios detallados de calificación de cada problema están en [`rubrica_parciales.md`](./rubrica_parciales.md).
 
 ### Modelo de calificación para la práctica integradora / proyecto final (15% de la nota)
 
