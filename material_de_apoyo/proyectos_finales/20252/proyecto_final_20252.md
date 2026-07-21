@@ -1,6 +1,8 @@
-# Proyecto Final — Análisis y Diseño de Algoritmos
+# Proyecto Final 2025-2 — Análisis y Diseño de Algoritmos
 
-Este es el enunciado del proyecto final del curso. Debes escoger **una** de las opciones descritas a continuación (Opción I u Opción II) y desarrollarla en equipo. La Opción III no requiere desarrollo.
+> 📌 **Material de referencia de un semestre anterior (2025-2).** Este no es el proyecto final vigente de tu semestre — revísalo para hacerte una idea del formato, alcance y rúbrica que suele tener el proyecto final del curso.
+
+Este fue el enunciado del proyecto final de ese semestre. Los estudiantes debían escoger **una** de las opciones descritas a continuación (Opción I u Opción II) y desarrollarla en equipo. La Opción III no requería desarrollo.
 
 ---
 

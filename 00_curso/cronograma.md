@@ -30,7 +30,7 @@ Este es el plan de clase a clase del semestre 2026-1. El curso está organizado 
 - Semanas 11-16 (Backtracking, incluye recursión) → [`04_backtracking/`](../04_backtracking/)
 - Semanas 17-22 (Dividir y Vencerás) → [`05_dividir_y_conquistar/`](../05_dividir_y_conquistar/)
 - Semanas 23-30 (Programación Dinámica) → [`06_programacion_dinamica/`](../06_programacion_dinamica/)
-- Semanas 31-32 (Branch & Bound + proyecto de aula) → sin material de teoría todavía; ver [`proyecto_final/`](../proyecto_final/) para el proyecto de aula.
+- Semanas 31-32 (Branch & Bound + proyecto de aula) → sin material de teoría ni enunciado vigente todavía. Puedes revisar el proyecto final de un semestre anterior en [`material_de_apoyo/proyectos_finales/20252/`](../material_de_apoyo/proyectos_finales/20252/) para hacerte una idea del formato.
 
 ## Ponderación de la nota final
 

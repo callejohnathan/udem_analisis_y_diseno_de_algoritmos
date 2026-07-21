@@ -27,8 +27,7 @@ El cronograma completo, semana a semana, con los hitos evaluativos de cada bloqu
 ## Otras carpetas
 
 - [`00_curso/`](00_curso/) — Información general del curso (metodología, evaluación, comunicación), el cronograma y el reto diagnóstico inicial.
-- [`proyecto_final/`](proyecto_final/) — Enunciado y rúbrica del proyecto final del semestre.
-- [`material_de_apoyo/`](material_de_apoyo/) — Parciales y simulacros reales de semestres anteriores, organizados por tema, más una carpeta `examenes_generales/` para finales, recuperaciones y supletorios que combinan varios temas. Útil para practicar, pero no revela necesariamente el formato exacto del próximo parcial.
+- [`material_de_apoyo/`](material_de_apoyo/) — Parciales, simulacros y proyectos finales reales de semestres anteriores, organizados por tema, más una carpeta `examenes_generales/` para finales, recuperaciones y supletorios que combinan varios temas, y `proyectos_finales/<semestre>/` para los enunciados de proyecto final ya entregados. Útil para practicar y para hacerte una idea del formato, pero no revela necesariamente el formato exacto del próximo parcial o proyecto.
 
 ## Cómo usar los notebooks de ejercicios
 
