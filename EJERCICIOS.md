@@ -10,3 +10,5 @@
 | EJ-006 | LC 784 | Generar todas las combinaciones de mayúscula/minúscula decidiendo letra por letra (2^letras) | material_de_apoyo/examenes_generales |
 | EJ-007 | LC 1219 | DFS con backtracking desde cada celda con oro, marcando visitadas y desmarcando al volver, para el camino simple de suma máxima | material_de_apoyo/examenes_generales |
 | EJ-008 | CF 1849B | Reducir cada vida a su residuo (a-1) mod k + 1 y ordenar por residuo descendente y luego por índice | material_de_apoyo/examenes_generales |
+| EJ-009 | LC 2389 | Ordenar, acumular sumas prefijas y, por consulta, búsqueda binaria de la última prefija ≤ consulta | 05_dividir_y_conquistar |
+| EJ-010 | LC 240 | Buscar en matriz ordenada por filas y columnas descartando cuadrantes (columna media + búsqueda binaria, o escalera desde una esquina) | 05_dividir_y_conquistar |
