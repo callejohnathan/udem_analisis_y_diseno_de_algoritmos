@@ -12,3 +12,6 @@
 | EJ-008 | CF 1849B | Reducir cada vida a su residuo (a-1) mod k + 1 y ordenar por residuo descendente y luego por índice | material_de_apoyo/examenes_generales |
 | EJ-009 | LC 2389 | Ordenar, acumular sumas prefijas y, por consulta, búsqueda binaria de la última prefija ≤ consulta | 05_dividir_y_conquistar |
 | EJ-010 | LC 240 | Buscar en matriz ordenada por filas y columnas descartando cuadrantes (columna media + búsqueda binaria, o escalera desde una esquina) | 05_dividir_y_conquistar |
+| EJ-011 | Propio (var. Fibonacci) | Contar cubrimientos de una franja con dos piezas de 1 y una de 2: f(n) = 2f(n-1) + f(n-2), PD 1D | 06_programacion_dinamica |
+| EJ-012 | Propio (var. LC 198) | Maximizar suma eligiendo elementos sin tomar más de dos consecutivos: PD con estado (posición, racha actual) | 06_programacion_dinamica |
+| EJ-013 | Propio (var. LC 583 / LC 1143) | Mínimo de borrados + inserciones entre dos secuencias de líneas: PD 2D sobre prefijos (equivale a n + m − 2·LCS) | 06_programacion_dinamica |
