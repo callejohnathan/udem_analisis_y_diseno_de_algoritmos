@@ -15,3 +15,6 @@
 | EJ-011 | Propio (var. Fibonacci) | Contar cubrimientos de una franja con dos piezas de 1 y una de 2: f(n) = 2f(n-1) + f(n-2), PD 1D | 06_programacion_dinamica |
 | EJ-012 | Propio (var. LC 198) | Maximizar suma eligiendo elementos sin tomar más de dos consecutivos: PD con estado (posición, racha actual) | 06_programacion_dinamica |
 | EJ-013 | Propio (var. LC 583 / LC 1143) | Mínimo de borrados + inserciones entre dos secuencias de líneas: PD 2D sobre prefijos (equivale a n + m − 2·LCS) | 06_programacion_dinamica |
+| EJ-014 | Semilla del profesor (var. LC 1143) | LCS sobre dos series numéricas donde coinciden a[i], b[j] si abs(a[i] − b[j]) ≤ d: PD 2D sobre prefijos con la condición de coincidencia cambiada | material_de_apoyo/programacion_dinamica |
+| EJ-015 | Semilla del profesor (var. LC 64) | Costo mínimo entre dos celdas (x1, y1) → (x2, y2) con movimientos derecha, abajo y diagonal abajo-derecha y celdas bloqueadas: PD 2D sobre el rectángulo con mínimo de tres vecinos | material_de_apoyo/programacion_dinamica |
+| EJ-016 | Semilla del profesor (LC 2140) | Tomar o dejar cada elemento; tomar i salta d[i] posiciones: f(i) = max(f(i+1), p[i] + f(i+d[i]+1)) | material_de_apoyo/programacion_dinamica |
