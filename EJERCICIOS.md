@@ -27,3 +27,6 @@
 | EJ-023 | LC 746 (var.) | Costo mínimo para subir pagando por escalón, con saltos de 1, 2 o 3: mínimo de tres estados previos | material_de_apoyo/examenes_generales |
 | EJ-024 | LC 1043 (var.) | Partir un arreglo en bloques ≤ k: cada estado prueba cada tamaño de último bloque, con valor max·tamaño − costo | material_de_apoyo/examenes_generales |
 | EJ-025 | LC 198 (var. estructura, equivale a LC 213) | Tomar sin vecinos en un círculo: máximo de dos PD lineales, sin el primero o sin el último | material_de_apoyo/examenes_generales |
+| EJ-026 | Clásico (par más cercano) | Comparar todos los pares de puntos y quedarse con la menor distancia euclidiana, O(n²) | 02_fuerza_bruta |
+| EJ-027 | Clásico (TSP) | Fijar la ciudad de origen, recorrer todas las permutaciones de las demás y quedarse con el ciclo de menor costo | 02_fuerza_bruta |
+| EJ-028 | Clásico (mochila 0/1) | Enumerar los 2ⁿ subconjuntos de objetos y quedarse con el de mayor valor que no exceda la capacidad | 02_fuerza_bruta |
