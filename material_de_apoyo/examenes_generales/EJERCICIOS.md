@@ -20,8 +20,20 @@ Nota: los notebooks anteriores de esta carpeta (parciales, recuperaciones y supl
 | EJ-023 | Escalera con peajes | LC 746 | Variación de LC 746 (restricción) | programación dinámica 1D | Fácil | recuperacion_bt_dc_pd_20262.ipynb |
 | EJ-024 | Lotes con precio máximo | LC 1043 | Variación de LC 1043 (restricción) | programación dinámica, partición | Media | recuperacion_bt_dc_pd_20262.ipynb |
 | EJ-025 | Vigilancia en anillo | LC 198 | Variación de LC 198 (estructura) | programación dinámica, casos circulares | Media | recuperacion_bt_dc_pd_20262.ipynb |
+| EJ-029 | Balanceo del clúster | LC 698 | Variación de EJ-019 (pregunta) | backtracking, poda por simetría | Media | parcial_final_20262.ipynb |
+| EJ-030 | Réplicas divergentes | LC 1143 | Variación de LC 1143 (pregunta) | programación dinámica 2D, reconstrucción | Media | parcial_final_20262.ipynb |
+| EJ-031 | Ráfagas de actividad sospechosa | LC 340 | Propuesto por el otro profesor del curso | ventana deslizante, diccionario de conteo | Media | parcial_final_20262.ipynb |
+| EJ-032 | Consolidación de bitácoras | LC 23 | Propuesto por el otro profesor del curso | montículo, mezcla de k listas | Media | parcial_final_20262.ipynb |
 
 ## Bitácora
+
+### 2026-11-17 — parcial_final_20262.ipynb (parcial, nuevo)
+- Agregados: EJ-031 y EJ-032 (ejercicios 1 y 2), EJ-029 y EJ-030 (ejercicios 3 y 4)
+- De plataformas, dados por el profesor: ninguno
+- Del otro profesor del curso: EJ-031 y EJ-032, tomados de ADA_parcial_final_2026_2.ipynb y reformateados a casos literales con asserts, sin cambiar enunciados, restricciones ni casos. Se conservó la pista sobre la complejidad de EJ-032 porque es parte de su enunciado. Sus instrucciones generales se integraron al encabezado.
+- Desde semillas del profesor: EJ-030 (LCS devolviendo la cadena, pedido por el profesor)
+- Propuestos por Claude: EJ-029, aprobado por el profesor
+- Notas: EJ-029 se mantuvo por decisión del profesor aunque es cercano a EJ-019 (recuperación del 2026-11-06): pasa de minimizar la carga máxima a exigir cargas idénticas y devolver el reparto. EJ-030 es cercano a EJ-013 y EJ-014 (LCS), pero aquí se exige reconstruir la cadena. Por decisión del profesor se usan casos literales más una celda de asserts con XXX, como en el notebook del otro profesor; como hay varias respuestas válidas, los asserts validan la respuesta (partición con cargas iguales; longitud y subsecuencia de ambas) y no la comparan con "salida". Fecha: 2026-11-18, hora límite de envío 10:00 a.m. Sin enlaces a la fuente. Casos de estrés (`# caso grande`): EJ-029 casos 11–15 (n = 16; sin poda, k^n, más de 20 s cada uno; solo con poda por capacidad, el caso 11 tarda 2,9 s; con poda por cargas repetidas y por servidor vacío, menos de 0,2 s); EJ-030 casos 12–14 (1000 × 1000; la recursión sin memoria tarda más de 10 s en cada uno; la tabla, unos 0,15 s). La memoización recursiva llega a una profundidad de unas 2000 llamadas y necesita subir el límite de recursión. Salidas verificadas: EJ-031 contra fuerza bruta y EJ-032 contra una mezcla con montículo (todos los valores del otro profesor eran correctos); EJ-029 contra PD con máscara de bits en 3000 entradas aleatorias y en todos los casos; EJ-030 contra fuerza bruta en 1500 entradas aleatorias; las celdas de asserts se ejecutaron con las soluciones de referencia y fallan con una solución trivial.
 
 ### 2026-11-06 — recuperacion_bt_dc_pd_20262.ipynb (recuperación evaluada en sesión, nuevo)
 - Agregados: EJ-017 a EJ-025

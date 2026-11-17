@@ -30,3 +30,7 @@
 | EJ-026 | Clásico (par más cercano) | Comparar todos los pares de puntos y quedarse con la menor distancia euclidiana, O(n²) | 02_fuerza_bruta |
 | EJ-027 | Clásico (TSP) | Fijar la ciudad de origen, recorrer todas las permutaciones de las demás y quedarse con el ciclo de menor costo | 02_fuerza_bruta |
 | EJ-028 | Clásico (mochila 0/1) | Enumerar los 2ⁿ subconjuntos de objetos y quedarse con el de mayor valor que no exceda la capacidad | 02_fuerza_bruta |
+| EJ-029 | LC 698 (var. EJ-019) | Repartir tareas en k grupos de suma idéntica y devolver el reparto: backtracking tarea por tarea con poda por capacidad, por cargas repetidas y por servidor vacío | material_de_apoyo/examenes_generales |
+| EJ-030 | LC 1143 (var. pregunta) | LCS por PD 2D sobre prefijos y reconstrucción de la cadena recorriendo la tabla desde el origen | material_de_apoyo/examenes_generales |
+| EJ-031 | LC 340 (otro profesor) | Substring más largo con a lo sumo k caracteres distintos: ventana de dos punteros con conteo en diccionario, O(n) | material_de_apoyo/examenes_generales |
+| EJ-032 | LC 23 (otro profesor) | Mezclar k listas ordenadas con un montículo de los primeros pendientes de cada lista, O(N log k) | material_de_apoyo/examenes_generales |
