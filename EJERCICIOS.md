@@ -34,3 +34,6 @@
 | EJ-030 | LC 1143 (var. pregunta) | LCS por PD 2D sobre prefijos y reconstrucción de la cadena recorriendo la tabla desde el origen | material_de_apoyo/examenes_generales |
 | EJ-031 | LC 340 (otro profesor) | Substring más largo con a lo sumo k caracteres distintos: ventana de dos punteros con conteo en diccionario, O(n) | material_de_apoyo/examenes_generales |
 | EJ-032 | LC 23 (otro profesor) | Mezclar k listas ordenadas con un montículo de los primeros pendientes de cada lista, O(N log k) | material_de_apoyo/examenes_generales |
+| EJ-033 | CF 706B | Contar, para varias consultas de presupuesto, cuántos elementos de un arreglo no superan el presupuesto, mediante ordenamiento y búsqueda binaria | 05_dividir_y_conquistar |
+| EJ-034 | LC 215 | Encontrar el k-ésimo mayor elemento de un arreglo sin ordenarlo completo, mediante partición tipo quickselect | 05_dividir_y_conquistar |
+| EJ-035 | LC 744 | Búsqueda binaria sobre un arreglo ordenado (circular) para hallar el menor elemento estrictamente mayor que un valor dado | 05_dividir_y_conquistar |

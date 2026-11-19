@@ -8,6 +8,9 @@ Nota: los notebooks anteriores de esta carpeta (ejercicios_dividir_y_conquistar_
 |----|--------|--------|-------------|---------------------|------------|---------|
 | EJ-009 | Subsecuencia más larga con suma limitada | LC 2389 | Traducido (con requisito de complejidad O((n + m) · log n) agregado) | ordenamiento, sumas prefijas, búsqueda binaria | Fácil | simulacro_dividir_y_conquistar_2.ipynb |
 | EJ-010 | Buscar en una matriz ordenada | LC 240 | Traducido (con requisito de complejidad menor que O(m · n) agregado) | dividir y vencer en matrices, búsqueda binaria | Media | simulacro_dividir_y_conquistar_2.ipynb |
+| EJ-033 | Consultas de presupuesto en una fila de tiendas | CF 706B | Traducido | ordenamiento, búsqueda binaria, consultas offline | Media | parcial_dividir_y_conquistar_20262.ipynb |
+| EJ-034 | El k-ésimo mayor valor | LC 215 | Traducido | quickselect, partición | Media | parcial_dividir_y_conquistar_20262.ipynb |
+| EJ-035 | La ficha más cercana por encima | LC 744 | Traducido | búsqueda binaria, arreglo circular | Baja-Media | parcial_dividir_y_conquistar_20262.ipynb |
 
 ## Bitácora
 
@@ -17,3 +20,14 @@ Nota: los notebooks anteriores de esta carpeta (ejercicios_dividir_y_conquistar_
 - Desde semillas del profesor: ninguno
 - Propuestos por Claude: ninguno
 - Notas: simulacro para la clase del 2026-10-15. Instrucción general: resolver con dividir y vencer. Por pedido del profesor, cada enunciado declara la complejidad exigida, porque con los límites originales una solución ingenua también pasa los casos. Casos de estrés (`# caso grande`): EJ-009 casos 7–9 (n = m = 1000); EJ-010 casos 10–13 (matriz 300 × 300, objetivo ausente impar en una matriz de pares, valor en la esquina, objetivo por debajo del mínimo). Contra soluciones ingenuas la diferencia de tiempo es pequeña en Python (EJ-010: 200 búsquedas ingenuas 0,14 s frente a 0,04 s con dividir y vencer), así que el requisito de complejidad se verifica al revisar el código, no por tiempo. Salidas verificadas: EJ-009 contra fuerza bruta por combinaciones en 500 entradas aleatorias; EJ-010 contra búsqueda exhaustiva y contra una solución de dividir y vencer en 2000 matrices aleatorias, y se comprobó que todas las matrices de los casos cumplen el orden por filas y columnas.
+
+### 2026-10-20 — parcial_dividir_y_conquistar_20262.ipynb (parcial, nuevo)
+- Agregados: EJ-033, EJ-034, EJ-035
+- De plataformas, dados por el profesor: EJ-033 (CF 706B), EJ-034 (LC 215), EJ-035 (LC 744)
+- Desde semillas del profesor: ninguno
+- Propuestos por Claude: ninguno
+- Notas: EJ-034 (LC 215) ya aparece resuelto en `ejercicios_dividir_y_conquistar_1.ipynb` de esta misma carpeta (mismo planteamiento y mismos casos de ejemplo), pero no se trabajó en clase. El profesor decidió explícitamente incluirlo tal cual en el parcial de todas formas, asumiendo que solo estudiantes que repasaron el notebook de práctica por su cuenta podrían reconocerlo. CF 706B y LC 744 no tienen antecedentes en el índice general ni en ningún archivo del repositorio.
+
+### 2026-11-19 — parcial_dividir_y_conquistar_20262.ipynb (publicación)
+- El parcial se mantuvo fuera del repositorio público hasta el cierre del semestre y se publicó el 2026-11-19.
+- Se creó con IDs provisionales EJ-001 a EJ-003 sobre un clon desactualizado; antes de publicarlo se renumeró a EJ-033 a EJ-035 (registro y variables `casos_ej_*` del notebook). Sin repetidos frente al índice al día (EJ-001 a EJ-032).
