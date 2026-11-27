@@ -9,6 +9,8 @@ Nota: los parciales anteriores de esta carpeta (2025-2 y 2026-1) son previos a e
 | EJ-014 | Comparando sensores | Semilla del profesor (LCS) | Variación de LC 1143 (pregunta: coincidencia con tolerancia en vez de igualdad) | PD 2D sobre prefijos, LCS | Media | parcial_programacion_dinamica_20262.ipynb |
 | EJ-015 | Ruta del dron | Semilla del profesor (rutas de (x1, y1) a (x2, y2)) | Variación de LC 64 (estructura: origen y destino arbitrarios, movimientos derecha, abajo y diagonal abajo-derecha, con bloqueos) | PD 2D en cuadrícula, tres vecinos | Media | parcial_programacion_dinamica_20262.ipynb |
 | EJ-016 | Turnos con descanso | Semilla del profesor (tipo house robber sin la condición i−1 / i−2) | Variación de contexto de LC 2140 | PD 1D, tomar o dejar con salto variable | Media | parcial_programacion_dinamica_20262.ipynb |
+| EJ-036 | Navegación en almacén inteligente | Propio (var. LC 64) | Variación de LC 64 (estructura: origen y destino arbitrarios, solo derecha y abajo, celdas bloqueadas con -1; -1 si no hay ruta) | PD 2D en cuadrícula, dos vecinos | Media | parcial_programacion_dinamica_variante_almacen.ipynb |
+| EJ-037 | El inspector de viviendas | LC 198 | Variación de contexto de LC 198 (mismo enunciado que el problema 2 del parcial 2026-1) | PD 1D, tomar o dejar sin adyacentes | Baja | parcial_programacion_dinamica_variante_almacen.ipynb |
 
 ## Bitácora
 
@@ -22,3 +24,10 @@ Nota: los parciales anteriores de esta carpeta (2025-2 y 2026-1) son previos a e
 ### 2026-11-03 — parcial_programacion_dinamica_20262.ipynb (cambio en EJ-015)
 - Agregados: ninguno
 - Notas: por pedido del profesor, EJ-015 pasó de "moverse en las dos direcciones que acercan al destino, en cualquier cuadrante" a movimientos fijos derecha, abajo y diagonal abajo-derecha. Si el destino está en una fila o columna anterior al origen la respuesta es -1. La diagonal salta directo a la celda (las vecinas no tienen que estar libres). Nuevo ejemplo del enunciado con óptimo 8 frente a 10 de la ruta más diagonal; nueva entrada del árbol A.3 (mapa 2 × 3, 12 nodos, 6 distintos) porque un 3 × 3 con tres movimientos daba 31 nodos. 14 casos (10 + 4 grandes), verificados contra enumeración de todas las rutas en 600 cuadrículas aleatorias y con una solución memo dentro del límite de recursión. Modelo de pensamiento actualizado.
+
+### 2026-11-27 — parcial_programacion_dinamica_variante_almacen.ipynb (parcial, ya aplicado, publicado)
+- Agregados: EJ-036, EJ-037
+- De plataformas, dados por el profesor: ninguno
+- Desde semillas del profesor: ninguno
+- Propuestos por Claude: ninguno
+- Notas: parcial del profesor hallado suelto en el Escritorio (`code\CPC\ada_dp.ipynb`, modificado el 2026-09-11) y publicado a pedido suyo porque ya se aplicó; semestre y grupo sin precisar (el encabezado dice "Estructuras de Datos y Algoritmos"). Es una variante del parcial 2026-1: comparte el problema 2 (inspector de viviendas) y cambia el problema 1 (robot de rescate por almacén inteligente). EJ-036 es anterior a EJ-015, que agregó la diagonal. Los casos de prueba no se re-verificaron al catalogarlo.

@@ -37,3 +37,5 @@
 | EJ-033 | CF 706B | Contar, para varias consultas de presupuesto, cuántos elementos de un arreglo no superan el presupuesto, mediante ordenamiento y búsqueda binaria | 05_dividir_y_conquistar |
 | EJ-034 | LC 215 | Encontrar el k-ésimo mayor elemento de un arreglo sin ordenarlo completo, mediante partición tipo quickselect | 05_dividir_y_conquistar |
 | EJ-035 | LC 744 | Búsqueda binaria sobre un arreglo ordenado (circular) para hallar el menor elemento estrictamente mayor que un valor dado | 05_dividir_y_conquistar |
+| EJ-036 | Propio (var. LC 64) | Costo mínimo entre dos celdas arbitrarias moviéndose solo a la derecha o abajo, con celdas bloqueadas: PD 2D sobre el rectángulo origen-destino, -1 si no hay ruta | material_de_apoyo/programacion_dinamica |
+| EJ-037 | LC 198 | Suma máxima sin tomar elementos adyacentes: PD 1D tomar o dejar con dp[i] = max(dp[i-1], dp[i-2] + v[i]) | material_de_apoyo/programacion_dinamica |
